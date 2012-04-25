@@ -43,11 +43,10 @@ SEARCHING THE TREE:
 
 dictionary.txt
 -------------
+FORMAT:
+	[doc_freq] [postings_ptr] [term_ptr]
 - 1st line contains the string of concatenated terms
-
-- Subsequent lines FORMAT:
-	- 1 line represents a unique term: `[doc_freq][postings_ptr][term_ptr]`  
-	- `[postings_ptr]` actually refers to the corresponding line in `postings.txt`
+- `[postings_ptr]` actually refers to the corresponding line in `postings.txt`
 
 postings.txt
 ------------
