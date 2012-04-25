@@ -4,9 +4,9 @@ eval-c.py
   eg. `results_hash['Arts']['precision']` returns the precision for __Arts__
 - `calculate` method calls `calculate_class` method for each class in `classes.txt`
 - classes not found in `classes.txt` are therefore ignored
-- __ precision =  relevant_retrieved / retrieved __
-- __ recall = relevant_retrieved / relevant __
-- __ F1 = 2 * ( ( precision * recall ) / ( precision + recall ) ) __
+- precision =  relevant_retrieved / retrieved
+- recall = relevant_retrieved / relevant
+- F1 = 2 * ( ( precision * recall ) / ( precision + recall ) )
 - average calculated as according to lab description (macro averages)
 
 
@@ -20,7 +20,7 @@ eval-ir.py
 - __precision__, __recall__ calculated as `eval-c.py`
 - Interpolated precision calculated by going through the rank_hash from the last item  
 	- iterate through and use the `max_precision` as current precicion
-	- results in a non-increasing stair-like __ interpolated_precision/recall __ curve
+	- results in a non-increasing stair-like interpolated_precision/recall curve
  - __F1__ is then calculated with new interpolated precision
 
 
