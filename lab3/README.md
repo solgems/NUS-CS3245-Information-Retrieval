@@ -1,7 +1,7 @@
 index.py
 --------
-- same as lab2 but switched to using linecache for smaller posting_ptrs
-- implemented and switched to dictionary-as-a-string format
+- same as lab2 but switched to using linecache for smaller `posting_ptrs`
+- implemented and switched to __dictionary-as-a-string__ format
 
 search.py
 --------
@@ -10,7 +10,8 @@ Highlights:
 - infinite length of phrasal queries
 - prefix search __app__ returns all `doc_ids` that contains __application__ and __apple__ too.  
 eg. if __application__ = [6], __apple__ = [2,4], therefore, __appl__ returns [2,4,6], whereas __appli__ returns [6]
-- prefix and phrasal queries works together! This is all thanks to the tree search structure and positional indexing eg. searching __"n u s"__ will return all docs that contains __"national university singapore"__ and __"new unique sunflower"__
+- prefix and phrasal queries works together! This is all thanks to the tree search structure and positional indexing  
+eg. searching __"n u s"__ will return all docs that contains __"national university singapore"__ and __"new unique sunflower"__
 
 Additional information:
 
