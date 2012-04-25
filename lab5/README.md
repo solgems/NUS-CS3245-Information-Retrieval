@@ -6,7 +6,7 @@ eval-c.py
 - classes not found in `classes.txt` are therefore ignored
 - ** precision =  relevant_retrieved / retrieved **
 - ** recall = relevant_retrieved / relevant **
-- F1 = ** 2 * ( ( precision * recall ) / ( precision + recall ) ) **
+- ** F1 = 2 * ( ( precision * recall ) / ( precision + recall ) ) **
 - average calculated as according to lab description (macro averages)
 
 
